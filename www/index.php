@@ -1,3 +1,23 @@
+<?php
+/**
+ * GHABI Malek — Projet Majordhom
+ * Fichier : www/index.php
+ * Description :
+ *   Page principale du site affichant le formulaire de contact.
+ *   Intègre les éléments visuels, le token CSRF et le champ honeypot.
+ *
+ * Rôle :
+ *   - Générer et afficher le formulaire HTML.
+ *   - Inclure le token CSRF pour sécuriser la requête.
+ *
+ * Accès :
+ *   Accessible via http://localhost/
+ *
+ * Sécurité :
+ *   - Aucun traitement de données ici.
+ *   - Affichage strict (front-end uniquement).
+ */
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>

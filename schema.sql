@@ -1,0 +1,12 @@
+-- GHABI Malek — Projet Majordhom
+-- Fichier : schema.sql
+-- Description :
+--   Script SQL de création de la table principale "leads".
+--
+-- Rôle :
+--   - Définir la structure de la base MySQL.
+--   - Créer les champs nécessaires pour stocker les formulaires.
+--
+-- Notes :
+--   - Encodage utf8mb4 pour compatibilité internationale.
+--   - Index ajouté sur "created_at" pour améliorer les performances.

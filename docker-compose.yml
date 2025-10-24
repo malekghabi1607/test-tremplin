@@ -1,3 +1,22 @@
+# GHABI Malek — Projet Majordhom
+# Fichier : docker-compose.yml
+# Description :
+#   Configuration Docker du projet.
+#   Lance automatiquement Apache/PHP, MySQL et phpMyAdmin.
+#
+# Rôle :
+#   - Permet de développer et tester le projet localement sans installation manuelle.
+#   - Facilite la maintenance et la compatibilité entre environnements.
+#
+# Accès :
+#   - Site web : http://localhost
+#   - phpMyAdmin : http://localhost:8080
+#
+# Sécurité :
+#   - L’utilisation de Docker évite la manipulation directe de la base locale.
+
+
+
 version: '1'
 
 services:
